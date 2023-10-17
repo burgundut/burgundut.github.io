@@ -1,1 +1,261 @@
+body {
+    background-color: #12111e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    font-family: Tahoma, sans-serif;
+}
+
+section {
+    border-radius: 24px;
+    color: #fff;
+    font-size: 13px;
+    height: 85vh;
+    background: #12111e;
+    box-shadow: inset 11px 11px 12px #0e0d17, inset -11px -11px 12px #161525;
+}
+
+.profil {
+    width: 180px;
+    padding: 15px; 
+    position: relative;   
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profileContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #773d77;
+    box-shadow: 0 0 10px 7px #773d77, 0 0 20px 4px #0e839a;
+}
+
+.profileContainer p {
+    margin: -10px 0 10px; /* Top, right, and bottom margins */
+    background: linear-gradient(45deg, #773d77, #4b909d);
+    color: #c1c0c0;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.profileContainer span {
+    margin-top: -5px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.abreviation{
+    width: 180px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.first-letter {
+    font-weight: bold; /* Make the first letter bold */
+    letter-spacing:5px;
+    font-size: 28px; 
+    background: linear-gradient(45deg, #e954e9, #4cdcf9); 
+    background-clip: text; /* Clip background to text */
+    -webkit-background-clip: text; /* For older webkit browsers */
+    color: transparent; /* Make text transparent */
+}
+
+
+#random-phrase{
+    letter-spacing:3px;
+}
+
+.contact {
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+}
+.contact img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact img:nth-child(3) {
+    height: 33px;
+}
+
+.galerie {
+    width: 70%;
+    margin-right: 5%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main-heading {
+    margin-top: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #e954e9, #4cdcf9);
+    -webkit-background-clip: text; /* For older webkit browsers */
+    background-clip: text;
+    color: transparent;
+}
+
+.hashtag {
+    margin-top: -10px;
+    font-size: 20px;
+    color: #4cdcf9;
+    text-align: center; 
+    letter-spacing: 1px;
+}
+.outside {
+    position: absolute;
+    z-index: 2;
+    right: -130px;
+    filter: drop-shadow(0 0 5px rgb(59, 70, 119));
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 400px;
+    gap: 20px;
+    margin: 5% 5% 10% 5%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center; 
+    overflow: auto; /* Allow scrolling to access hidden content */
+    scrollbar-width: none; /* Hide the scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide the scrollbar for IE and Edge */   
+}
+
+.gallery::-webkit-scrollbar {
+    width: 0; /* Hide the scrollbar for WebKit (Chrome, Safari) */
+  }
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 125px;
+    transition: transform 0.3s;
+    overflow: visible;
+}
+
+
+.icon {
+    position: absolute;
+    z-index: 1;
+    top: -18px;
+    right: -10px;
+    width: 30px; 
+    height: 30px; 
+    filter: drop-shadow(0 0 5px rgb(59, 70, 119)); 
+}
+
+.iconHover {
+    position: absolute;
+    background: #0e0d176a;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+    opacity: 0; /* Initially set to 0 to make it invisible */
+}
+
+.card:hover .iconHover {
+    opacity: 1; /* Make it visible on hover */
+}
+
+.iconHover img {
+    width: 35px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#modalOverlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.131);
+    z-index: 2; /* Make it above the modal */
+}
+
+.modal-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-content iframe {
+    width: 800px; 
+    height: 450px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.selectionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#categoryFilter, #subcategoryFilter{
+    padding: 5px;
+    background: linear-gradient(45deg, #e954e9, #4cdcf9);
+    min-width: 150px;
+    color: rgb(14, 27, 51);
+}
 
