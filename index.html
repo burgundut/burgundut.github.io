@@ -1,1 +1,55 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="profil">
+        <div class="profileContainer">
+            <img src="./assets/profile9.jpg" alt="Beautiful Android Woman">
+            <h4>Burgundy (NextLevelDevs)</h4>
+            <p>Full-Stack Developer</p>
+            <span> (Self-Taught) </span>
+        </div>
+        <hr style="border: none; height: 1px; background: linear-gradient(to right, #773d77, #4b909d); width: 80%;">
+        <div class="abreviation">
+            <p id="random-phrase">A random phrase goes here.</p>
+        </div>
+        <hr style="border: none; height: 1px; background: linear-gradient(to right, #773d77, #4b909d); width: 80%;">
+        <div class="contact">
+            <img src="./assets/instagram.png" alt="Instagram Logo">
+            <img src="./assets/github.png" alt="Github Logo">
+            <img src="./assets/youtube.png" alt="Youtube Logo">
+        </div>
+    </section>
+    <section class="galerie">
+        <img class="outside" src="./assets/garfield.png" alt="cool">
+        <h1 class="main-heading">Come, Get Inspired, Try, CUSTOMIZE, Share & Repeat!</h1>
+        <h2 class="hashtag">#NextLevelDevs</h2>
+        <div class="selectionContainer">
+            <select id="categoryFilter">
+                <option value="All">All</option>
+                <option value="Python">Python</option>
+                <option value="React">React</option>
+                <option value="Full-Stack">Full-Stack</option>
+            </select>
+            <select id="subcategoryFilter">
+                <option value="All">All</option>
+            </select>
+        </div>
+        <div class="gallery" id="cardContainer">
+            <div id="projects"></div>
+            <!-- Cards will be dynamically added here -->
+        </div>
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeVideo">&times;</span>
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen autoplay mute style="border: none;"></iframe>
+            </div>
+        </div>
+        <div id="modalOverlay"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
