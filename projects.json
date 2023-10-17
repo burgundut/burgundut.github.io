@@ -1,1 +1,126 @@
 
+{
+    "projects": [
+        {
+            "id": "1",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "Python",
+            "subcategory": "Data Science"
+        },
+        {
+            "id": "2",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "React",
+            "subcategory": "Microinteractions"
+        },
+        {
+            "id": "3",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "React",
+            "subcategory": "Animations"
+        },
+        {
+            "id": "4",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "React",
+            "subcategory": "Loaders"
+        },
+        {
+            "id": "5",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "React",
+            "subcategory": "Carousels / Sliders"
+        },
+        {
+            "id": "6",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "React",
+            "subcategory": "Menus"
+        },
+        {
+            "id": "7",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "React",
+            "subcategory": "Forms"
+        },
+        {
+            "id": "8",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "React",
+            "subcategory": "Modals / Pop-up's"
+        },
+        {
+            "id": "9",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "Python",
+            "subcategory": "Games"
+        },
+        {
+            "id": "10",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "Python",
+            "subcategory": "Automation"
+        },
+        {
+            "id": "11",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "Python",
+            "subcategory": "AI / ML"
+        },
+        {
+            "id": "12",
+            "title": "Card 1",
+            "icon": "./assets/db.png",
+            "videoLink": "https://www.youtube.com/embed/aOb15GVFZxU?autoplay=1&amp;mute=1&amp;controls=0",
+            "image": "maxresdefault.jpg",
+            "link": "https://icons8.com/icons/set/eye",
+            "category": "Full-Stack",
+            "subcategory": "Phishing / Clones"
+        }
+     
+    ]
+}
